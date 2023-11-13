@@ -1,2 +1,2 @@
 # Triangle
-My first QML app, it calculates the missong sides and angles of a triangle
+My first QML and Qt6-only app, it calculates the missing sides and angles of a triangle, as well as the area and perimeter.
