@@ -10,6 +10,10 @@
 
 int main(int argc, char *argv[])
 {
+#ifdef Q_OS_ANDROID
+    qputenv("QT_QUICK_CONTROLS_MATERIAL_THEME", QByteArray("Dark"));
+#endif
+
     QGuiApplication app(argc, argv);
     app.setOrganizationName(u"Tim Gromeyer"_qs);
     app.setWindowIcon(QIcon(u"://triangle-svgrepo-com.svg"_qs));

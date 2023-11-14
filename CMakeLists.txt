@@ -1,7 +1,5 @@
 cmake_minimum_required(VERSION 3.21.1)
 
-option(LINK_INSIGHT "Link Qt Insight Tracker library" ON)
-
 project(TriangleApp LANGUAGES CXX)
 
 set(CMAKE_AUTORCC ON)
